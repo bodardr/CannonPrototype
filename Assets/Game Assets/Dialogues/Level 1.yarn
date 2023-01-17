@@ -1,0 +1,58 @@
+title: Start
+tags: 
+colorID: 0
+position: -80,-40
+---
+???: [chain/]Wake up [speed=slow]Winston.
+???: [chain/]There's not mu-
+Winston: [shake/][speed=fast]Argh! [wait=0.3/][shake/]Huh?[wait=0.6/][shake/] Who is speaking!? [/]
+???: It's Owen. Now -[shake/][speed=fast] quickly, [wait=0.6/] get on the move.
+===
+title: 1-1
+tags: 
+colorID: 0
+position: 200,-40
+---
+Owen: Check it out.
+<<pan IceCam>>
+<<wait 2.0>>
+Owen: The path is slippery ahead, [shake/]beware.
+<<unpan>>
+Owen: Let's get you stretched up.
+===
+title: 1-4
+tags: 
+colorID: 0
+position: 440,-40
+---
+Owen: [chain/][shake/]Stay down.
+Winston: Okay.
+<<pan GuardCam>>
+Owen: The Guards.
+<<unpan>>
+Winston: Got it.
+===
+title: 1-5
+tags: 
+colorID: 0
+position: 680,-40
+---
+Owen: Moving, Platforms. Watch your step.
+Winston: [speed=fast]Anything... [speed=default]less [speed=slow]obvious [speed=default]chief? [/]
+Owen: Stay focused.
+===
+title: Cannon-obtained
+tags: 
+colorID: 0
+position: 920,-40
+---
+Owen: Great job, now let's put this device to use.
+===
+title: Cannon-forgotten
+tags: 
+colorID: 0
+position: 920,-280
+---
+Owen:[shake/]Hey! Didn't you forget something!? Come on now.
+<<move Character CannonForgottenBackPoint>>
+===
